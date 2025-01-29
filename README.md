@@ -40,17 +40,12 @@ An endpoint for accessing the 'me' resource object. Make a GET request to the  `
 ```
 { 
     "email": "ebonko2017ip@gmail.com",
-    "current_datetime": 
-    "github_url": "<https://github.com/ubterkostage-zero>"
+    "current_datetime": "2025-01-30T09:30:00Z"
+    "github_url": "https://github.com/ubterkostage-zero"
 }
 ```
 
-## Looking to hire developers? 
-Pick from our list of competent backend developers. Click one of the following links to find developers that match the desired skills for your projects. 
+## Looking to hire Python developers? 
+Pick from our list of competent backend developers. Click link to find Python developers for your projects. 
 
 https://hng.tech/hire/python-developers
-https://hng.tech/hire/csharp-developers
-https://hng.tech/hire/golang-developers
-https://hng.tech/hire/php-developers
-https://hng.tech/hire/java-developers
-https://hng.tech/hire/nodejs-developers
