@@ -18,12 +18,11 @@ class Me(Resource):
 
     # Make a GET request on resource /me 
     def get(self):
-        current_datetime = datetime.now(timezone.utc)
         
         return {
             "email": "ebonko2017ip@gmail.com",
-            "current_datetime": current_datetime.replace(microsecond=0).isoformat(),
-            "github_url": "<https://github.com/ubterko/stage-zero>"
+            "current_datetime": datetime.now(timezone.UTC).isoformat(timespec='seconds') + 'Z',
+            "github_url": "https://github.com/ubterko/stage-zero"
         }, 200
 
 # Add resource to the api 
