@@ -21,7 +21,7 @@ class Me(Resource):
         
         return {
             "email": "ebonko2017ip@gmail.com",
-            "current_datetime": datetime.now(timezone.UTC).isoformat(timespec='seconds') + 'Z',
+            "current_datetime": datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z'),
             "github_url": "https://github.com/ubterko/stage-zero"
         }, 200
 
